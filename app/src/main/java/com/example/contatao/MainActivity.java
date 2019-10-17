@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
         lstContato.add(new Contato(4, "goku", "123456789", R.drawable.goku));
         lstContato.add(new Contato(5, "Cris", "123456", R.drawable.cris));
         lstContato.add(new Contato(6, "Ronaldinho", "586476", R.drawable.ronaldinho));
+        lstContato.add(new Contato(6, "Rubinho", "586476", R.drawable.rubinho));
 
         ContatoAdapter adapter = new ContatoAdapter(this, lstContato);
         this.lvContatos.setAdapter(adapter);
